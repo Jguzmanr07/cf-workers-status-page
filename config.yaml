@@ -53,7 +53,6 @@ monitors:
     linkable: false # allows the title to be a link, default=true
     group: Production
 
-
   - id: Api-Production-Payválida # unique identifier
     name: Api Merchants Country Payválida
     url: 'https://api-merchants.payvalida.com/country' # URL to fetch
@@ -69,12 +68,12 @@ monitors:
     linkable: true
     group: Production
 
-  - id: Api-Production-Payválida
-    name: Api Production Payválida
-    url: 'https://api.payvalida.com'
-    method: GET
-    followRedirect: true
-    group: Production
+  # - id: Api-Production-Payválida
+  #   name: Api Production Payválida
+  #   url: 'https://api.payvalida.com'
+  #   method: GET
+  #   followRedirect: true
+  #   group: Production
 
   - id: app-prod-payvalida-com
     name: App Prod Payvalida
