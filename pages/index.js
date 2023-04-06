@@ -95,7 +95,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
           </div>
           <div>
             <a
-              href="https://github.com/eidam/cf-workers-status-page"
+              href="https://payvalida.com"
               target="_blank"
             >
               Get Your Status Page

@@ -94,7 +94,7 @@ monitors:
     group: Sandbox
   
   - id: Api Production Payválida # unique identifier
-    name: Modulo administrativo Prod Payválida
+    name: Modulo administrativo Sandbox Payválida
     url: 'https://administrative-test.payvalida.com' # URL to fetch
     method: GET # default=GET
     followRedirect: false # should fetch follow redirects, default=false
