@@ -1,7 +1,7 @@
 settings:
   title: 'Servarr Status'
-  url: 'https://status.servarr.com' # used for Slack messages
-  logo: servarr_dark_256.png # image in ./public/ folder
+  url: 'https://status.payvalida.com' # used for Slack messages
+  logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
