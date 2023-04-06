@@ -69,11 +69,10 @@ monitors:
     linkable: true
     group: Production
 
-  - id: Api Production Payválida # unique identifier
+  - id: Api Production Payválida
     name: Api Production Payválida
-    description: 'Api Endpoints Payválida.' # default=empty
-    url: 'https://api.payvalida.com' # URL to fetch
-    method: GET # default=GET
+    url: 'https://api.payvalida.com'
+    method: GET
     followRedirect: true
     group: Production
 
