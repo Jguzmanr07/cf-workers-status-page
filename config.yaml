@@ -132,3 +132,77 @@ monitors:
     group: whisparr
     url: https://api.whisparr.com/v2/
     icon: whisparr_256.png
+
+  #####################
+
+  - id: Payválida # unique identifier
+    name: Payvalida Page
+    description: 'Página principal Payválida.' # default=empty
+    url: 'https://payvalida.com' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+    group: General
+  
+  - id: Documentation Payvalida # unique identifier
+    name: Payvalida Documentation
+    url: 'https://docs.payvalida.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+    group: General
+
+############ Production ###############
+  - id: secure-merchant.payvalida.com
+    name: 'Modulo Administrativo Prod Payválida'
+    description: 'Billetera Sandbox Payválida.'
+    url: 'https://secure-merchant.payvalida.com'
+    method: GET
+    expectStatus: 200
+    linkable: true
+    group: Production
+
+  - id: Api Production Payválida # unique identifier
+    name: Api Merchants Country Payválida
+    description: 'Api Merchants Countrys Payválida.' # default=empty
+    url: 'https://api-merchants.payvalida.com/country' # URL to fetch
+    method: GET # default=GET
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+    group: Production
+
+  - id: www-wallet-com
+    name: Wallet Production Payválida
+    description: 'Billetera Payválida.'
+    url: 'https://wallet.payvalida.com'
+    method: GET
+    linkable: true
+    group: Production
+
+  # - id: Api Production Payválida # unique identifier
+  #   name: Api Production Payválida
+  #   description: 'Api Endpoints Payválida.' # default=empty
+  #   url: 'https://api.payvalida.com' # URL to fetch
+  #   method: GET # default=GET
+  #   followRedirect: true
+  #   group: Production
+
+############ Sandbox ###############
+
+  - id: sandbox-wallet-payvalida.com
+    name: 'Wallet Sandbox Payválida'
+    description: 'Billetera Sandbox Payválida.'
+    url: 'https://sandbox-wallet.payvalida.com'
+    method: GET
+    linkable: true
+    group: Sandbox
+
+  - id: sandbox-merchant-payvalida.com
+    name: 'Modulo Administrativo Sandbox Payválida'
+    description: 'Modulo Sandbox Payválida.'
+    url: 'https://sandbox-merchant.payvalida.com'
+    method: GET
+    linkable: true
+    group: Sandbox
