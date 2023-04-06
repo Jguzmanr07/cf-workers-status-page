@@ -26,7 +26,7 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
     group: General
-  
+    icon: logo-192x192.png
   - id: Documentation-Payvalida # unique identifier
     name: Payvalida Documentation
     url: 'https://docs.payvalida.com/' # URL to fetch
@@ -35,7 +35,7 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
     group: General
-
+    icon: logo-192x192.png
 ############ Production ###############
   - id: secure-merchant.payvalida.com
     name: 'Merchants Prod Payválida'
@@ -44,7 +44,7 @@ monitors:
     expectStatus: 200
     linkable: true
     group: Production
-  
+    icon: logo-192x192.png
   # - id: Api-Production-Payválida # unique identifier
   #   name: Modulo administrativo Prod Payválida
   #   url: 'https://secure-administrative.payvalida.com/' # URL to fetch
@@ -52,7 +52,6 @@ monitors:
   #   followRedirect: false # should fetch follow redirects, default=false
   #   linkable: false # allows the title to be a link, default=true
   #   group: Production
-
   # - id: Api-Production-Payválida # unique identifier
   #   name: Api Merchants Country Payválida
   #   url: 'https://api-merchants.payvalida.com/country' # URL to fetch
@@ -60,14 +59,13 @@ monitors:
   #   followRedirect: false # should fetch follow redirects, default=false
   #   linkable: false # allows the title to be a link, default=true
   #   group: Production
-
   - id: www-wallet-com
     name: Wallet Production Payválida
     url: 'https://wallet.payvalida.com'
     method: GET
     linkable: true
     group: Production
-
+    icon: logo-192x192.png
   # - id: Api-Production-Payválida
   #   name: Api Production Payválida
   #   url: 'https://api.payvalida.com'
@@ -81,51 +79,50 @@ monitors:
     method: GET
     followRedirect: true
     group: Production
-  
+    icon: logo-192x192.png
   - id: metabase-payvalida-com
     name: Metabase Prod Payvalida
     url: 'https://metricas.payvalida.com'
     method: GET
     followRedirect: true
     group: Production 
-  
+    icon: logo-192x192.png
   - id: recaudo-payvalida-com
     name: Recaudo WS Prod Payvalida
     url: 'https://ws-prod.payvalida.com/services/WSPayvalida?wsdl'
     method: GET
     followRedirect: true
-    group: Production 
-
+    group: Production
+    icon: logo-192x192.png 
   - id: metamap-payvalida-com
     name: Metamap Prod Payvalida
     url: 'https://web-button.getmati.com/button.js'
     method: GET
     followRedirect: true
     group: Production 
-
+    icon: logo-192x192.png
   - id: pinvalida-payvalida-com
     name: pinvalidda Prod Payvalida
     url: 'https://pin-app.pinvalidda.com/website/index_co.jsp'
     method: GET
     followRedirect: true
     group: Production
-    
+    icon: logo-192x192.png
 ############ Sandbox ###############
-
   - id: sandbox-wallet-payvalida.com
     name: 'Wallet Sandbox Payválida'
     url: 'https://sandbox-wallet.payvalida.com'
     method: GET
     linkable: true
     group: Sandbox
-
+    icon: logo-192x192.png
   - id: sandbox-merchant-payvalida.com
     name: 'Modulo Merchant Sandbox Payválida'
     url: 'https://sandbox-merchant.payvalida.com'
     method: GET
     linkable: true
     group: Sandbox
-  
+    icon: logo-192x192.png
   # - id: Api-Production-Payválida # unique identifier
   #   name: Modulo administrativo Sandbox Payválida
   #   url: 'https://administrative-test.payvalida.com/' # URL to fetch
@@ -133,10 +130,10 @@ monitors:
   #   followRedirect: false # should fetch follow redirects, default=false
   #   linkable: false # allows the title to be a link, default=true
   #   group: Sandbox
-
   - id: sandbox-recaudo-payvalida-com
     name: Recaudo WS Sandbox Payvalida
     url: 'https://sandbox.payvalida.com/services/WSPayvalida?wsdl'
     method: GET
     followRedirect: true
     group: Sandbox 
+    icon: logo-192x192.png
