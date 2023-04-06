@@ -45,21 +45,21 @@ monitors:
     linkable: true
     group: Production
   
-  - id: Api-Production-Payválida # unique identifier
-    name: Modulo administrativo Prod Payválida
-    url: 'https://secure-administrative.payvalida.com/' # URL to fetch
-    method: GET # default=GET
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    group: Production
+  # - id: Api-Production-Payválida # unique identifier
+  #   name: Modulo administrativo Prod Payválida
+  #   url: 'https://secure-administrative.payvalida.com/' # URL to fetch
+  #   method: GET # default=GET
+  #   followRedirect: false # should fetch follow redirects, default=false
+  #   linkable: false # allows the title to be a link, default=true
+  #   group: Production
 
-  - id: Api-Production-Payválida # unique identifier
-    name: Api Merchants Country Payválida
-    url: 'https://api-merchants.payvalida.com/country' # URL to fetch
-    method: GET # default=GET
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    group: Production
+  # - id: Api-Production-Payválida # unique identifier
+  #   name: Api Merchants Country Payválida
+  #   url: 'https://api-merchants.payvalida.com/country' # URL to fetch
+  #   method: GET # default=GET
+  #   followRedirect: false # should fetch follow redirects, default=false
+  #   linkable: false # allows the title to be a link, default=true
+  #   group: Production
 
   - id: www-wallet-com
     name: Wallet Production Payválida
@@ -119,12 +119,12 @@ monitors:
     linkable: true
     group: Sandbox
 
-  - id: sandbox-merchant-payvalida.com
-    name: 'Modulo Administrativo Sandbox Payválida'
-    url: 'https://sandbox-merchant.payvalida.com'
-    method: GET
-    linkable: true
-    group: Sandbox
+  # - id: sandbox-merchant-payvalida.com
+  #   name: 'Modulo Administrativo Sandbox Payválida'
+  #   url: 'https://sandbox-merchant.payvalida.com'
+  #   method: GET
+  #   linkable: true
+  #   group: Sandbox
   
   - id: Api-Production-Payválida # unique identifier
     name: Modulo administrativo Sandbox Payválida
