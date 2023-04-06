@@ -41,6 +41,7 @@ jobs:
           [ -z "$SECRET_READARR_DISCORD_WEBHOOK_URL" ] && echo "Secret SECRET_READARR_DISCORD_WEBHOOK_URL not set, creating dummy one..." && SECRET_READARR_DISCORD_WEBHOOK_URL="default-gh-action-secret" || true
           [ -z "$SECRET_PROWLARR_DISCORD_WEBHOOK_URL" ] && echo "Secret SECRET_PROWLARR_DISCORD_WEBHOOK_URL not set, creating dummy one..." && SECRET_PROWLARR_DISCORD_WEBHOOK_URL="default-gh-action-secret" || true
           [ -z "$SECRET_WHISPARR_DISCORD_WEBHOOK_URL" ] && echo "Secret SECRET_WHISPARR_DISCORD_WEBHOOK_URL not set, creating dummy one..." && SECRET_WHISPARR_DISCORD_WEBHOOK_URL="default-gh-action-secret" || true
+          cat wrangler.toml          
         postCommands: |
           yarn kv-gc
         secrets: |
