@@ -47,7 +47,7 @@ monitors:
   
   - id: Api Production Payválida # unique identifier
     name: Modulo administrativo Prod Payválida
-    url: 'https://secure-administrative.payvalida.com' # URL to fetch
+    url: 'https://secure-administrative.payvalida.com/' # URL to fetch
     method: GET # default=GET
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
@@ -95,7 +95,7 @@ monitors:
   
   - id: Api Production Payválida # unique identifier
     name: Modulo administrativo Sandbox Payválida
-    url: 'https://administrative-test.payvalida.com' # URL to fetch
+    url: 'https://administrative-test.payvalida.com/' # URL to fetch
     method: GET # default=GET
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
