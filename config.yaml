@@ -1,5 +1,5 @@
 settings:
-  title: 'Servarr Status'
+  title: 'Status Page'
   url: 'https://status.payvalida.com' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -137,7 +137,6 @@ monitors:
 
   - id: Payválida # unique identifier
     name: Payvalida Page
-    description: 'Página principal Payválida.' # default=empty
     url: 'https://payvalida.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -156,7 +155,6 @@ monitors:
 
 ############ Production ###############
   - id: secure-merchant.payvalida.com
-    name: 'Modulo Administrativo Prod Payválida'
     description: 'Billetera Sandbox Payválida.'
     url: 'https://secure-merchant.payvalida.com'
     method: GET
@@ -166,7 +164,6 @@ monitors:
 
   - id: Api Production Payválida # unique identifier
     name: Api Merchants Country Payválida
-    description: 'Api Merchants Countrys Payválida.' # default=empty
     url: 'https://api-merchants.payvalida.com/country' # URL to fetch
     method: GET # default=GET
     followRedirect: false # should fetch follow redirects, default=false
@@ -175,7 +172,6 @@ monitors:
 
   - id: www-wallet-com
     name: Wallet Production Payválida
-    description: 'Billetera Payválida.'
     url: 'https://wallet.payvalida.com'
     method: GET
     linkable: true
@@ -193,7 +189,6 @@ monitors:
 
   - id: sandbox-wallet-payvalida.com
     name: 'Wallet Sandbox Payválida'
-    description: 'Billetera Sandbox Payválida.'
     url: 'https://sandbox-wallet.payvalida.com'
     method: GET
     linkable: true
@@ -201,7 +196,6 @@ monitors:
 
   - id: sandbox-merchant-payvalida.com
     name: 'Modulo Administrativo Sandbox Payválida'
-    description: 'Modulo Sandbox Payválida.'
     url: 'https://sandbox-merchant.payvalida.com'
     method: GET
     linkable: true
