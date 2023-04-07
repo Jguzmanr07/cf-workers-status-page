@@ -72,8 +72,8 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
       <div className="container mx-auto px-4">
         <div className="flex flex-row justify-between items-center p-4">
           <div className="flex flex-row items-center">
-            <img className="h-8 w-auto" src={config.settings.logo} />
-            <h1 className="ml-4 text-3xl">{config.settings.title}</h1>
+            <img className="h-6 w-auto" src={config.settings.logo} alt="logo" />
+            <h1 className="ml-2 text-2xl">{config.settings.title}</h1>
           </div>
           <div className="flex flex-row items-center">
             {typeof window !== 'undefined' && <ThemeSwitcher />}
