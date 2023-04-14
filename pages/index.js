@@ -73,7 +73,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
         <div className="flex flex-row justify-between items-center p-4">
           <div className="flex flex-row items-center">
             <img className="h-6 w-auto" src={config.settings.logo} alt="logo" />
-            <h1 className="ml-2 text-2xl">{config.settings.title}</h1>
+            <h1 className="ml-2 text-3xl">{config.settings.title}</h1>
           </div>
           <div className="flex flex-row items-center">
             {typeof window !== 'undefined' && <ThemeSwitcher />}
